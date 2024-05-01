@@ -1,0 +1,3 @@
+Custom Mouse Icon
+https://stackoverflow.com/questions/74828476/how-to-change-the-mouse-cursor-into-a-custom-icon-or-image
+

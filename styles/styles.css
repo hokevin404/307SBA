@@ -1,0 +1,26 @@
+body {
+    /* Nimbus mouse cursor */
+    cursor: url("../images/nimbus.png"), auto;
+    background-color: rgb(190, 190, 190);
+  }
+  
+div:hover {
+    /* Nimbus mouse cursor */
+    cursor: url("../images/nimbus.png"), auto;
+}
+
+#banner {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-height: 0%;
+    background-color: blueviolet;}
+
+#logo {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    left: 1%;
+    top: 1px;
+}
