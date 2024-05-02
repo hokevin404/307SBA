@@ -13,7 +13,7 @@ div:hover {
 
 /* Container for banner */
 .banner {
-    display: block;
+    display: flex;
     width: 100%;
     height: auto;
 }
@@ -37,10 +37,45 @@ div:hover {
     min-height: fit-content;
 }
 
+/* Sidebar menu */
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkgreen;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Navigation link stylings */
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: yellow;
+    display: block;
+}
+
+/* Nav link color change when hovered over */
+.sidebar a:hover {
+    color: purple;
+}
+
 /* Viewpoints 480px or less */
 @media screen and (max-width: 480px) {
     #banner_img {
         height: 15vh;
+    }
+
+    .sidebar {
+        padding: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
     }
 }
 
@@ -56,14 +91,14 @@ div:hover {
     #banner_img {
         height: 30vh;
         /* top: -10%; */
-    }
+    }   
 }
 
 /* Viewports 1025px to 1200px  */
 @media screen and (max-width: 1025px) {
     #banner_img {
-        height: 20vh;
-        image-rendering: auto;
+        height: 5vh;
+        /* image-rendering: auto; */
     }
 }
 
