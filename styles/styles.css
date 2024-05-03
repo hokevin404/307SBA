@@ -50,7 +50,7 @@ div:hover {
     padding-top: 20px;
 }
 
-/* Navigation link stylings */
+/* Sidebar link stylings */
 .sidebar a {
     padding: 1vh 1vh 2vh 2vw;
     text-decoration: none;
@@ -59,9 +59,21 @@ div:hover {
     display: block;
 }
 
-/* Nav link color change when hovered over */
+/* Sidebar link color change when hovered over */
 .sidebar a:hover {
     color: purple;
+}
+
+.content-container {
+    display: block;
+    background-color: hotpink;
+    position: fixed;
+    width: auto;
+    height: auto;
+    z-index: 2;
+    top: 20vh;
+    left: 20vh;
+
 }
 
 /* Viewpoints 480px or less */
