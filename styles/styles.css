@@ -13,7 +13,7 @@ div:hover {
 
 /* Container for banner */
 .banner {
-    display: flex;
+    display: block;
     width: 100%;
     height: auto;
 }
@@ -21,7 +21,7 @@ div:hover {
 /* Background image of banner */
 #banner_img {
     background-repeat: no-repeat;
-    /* background-size: auto; */
+    background-size: auto;
     position: fixed;
     width: 100%;
 }
@@ -40,10 +40,10 @@ div:hover {
 /* Sidebar menu */
 .sidebar {
     height: 100%;
-    width: 160px;
+    width: 20vh;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 20vh;
     left: 0;
     background-color: darkgreen;
     overflow-x: hidden;
@@ -52,9 +52,9 @@ div:hover {
 
 /* Navigation link stylings */
 .sidebar a {
-    padding: 6px 8px 6px 16px;
+    padding: 1vh 1vh 2vh 2vw;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 2rm;
     color: yellow;
     display: block;
 }
@@ -95,9 +95,9 @@ div:hover {
 }
 
 /* Viewports 1025px to 1200px  */
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1200px) {
     #banner_img {
-        height: 5vh;
+        height: 20vh;
         /* image-rendering: auto; */
     }
 }
