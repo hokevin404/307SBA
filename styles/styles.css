@@ -95,7 +95,7 @@ div:hover {
 }
 
 /* Viewports 1025px to 1200px  */
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1024px) {
     #banner_img {
         height: 20vh;
         /* image-rendering: auto; */
