@@ -71,10 +71,11 @@ div:hover {
     position: fixed;
     width: auto;
     height: 100%;
-    z-index: 2;
     top: 20vh;
     left: 20vh;
-    overflow: auto;
+    right: 0px;
+    overflow-y: auto;
+    margin: 0;
 }
 
 /* Custom Google Fonts */
@@ -84,6 +85,7 @@ div:hover {
     font-style: normal;
   }
 
+/* Dragon Ball Super manga cover styling */
 #dbs-cover {
     border-radius: 5%;
     display: block;
@@ -92,11 +94,13 @@ div:hover {
     height: 70%;
 }
 
+/* Page title styling */
 #title {
     text-align: center;
     padding: 3rem;
 }
 
+/* <p> statement styling */
 .p-statements {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
@@ -104,6 +108,29 @@ div:hover {
     height: 50%;
     padding-left: 10rem;
     padding-right: 10rem;
+}
+
+.char-left {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.char-right {
+    display: inline-flex;
+    width: auto;
+    height: max-content;
+}
+
+#goku {
+    height: 60%;
+    display: flex;
+    margin-left: 10vw;
+}
+
+#vegeta {
+    height: 40%;
+    display: flex;
 }
 
 /* Viewpoints 480px or less */
