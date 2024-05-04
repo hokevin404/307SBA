@@ -68,7 +68,7 @@ div:hover {
 .content-container {
     display: block;
     background-color: hotpink;
-    position: fixed;
+    position: relative;
     width: auto;
     height: 100%;
     top: 20vh;
@@ -113,23 +113,24 @@ div:hover {
 .char-left {
     display: flex;
     width: 100%;
-    height: auto;
+    max-height: 50%;
 }
 
 .char-right {
-    display: inline-flex;
-    width: auto;
-    height: max-content;
+    display: flex;
+    width: 100%;
+    max-height: 50%;
 }
 
 #goku {
-    height: 60%;
+    max-height: 90%;
     display: flex;
     margin-left: 10vw;
+    margin-bottom: 0px;
 }
 
 #vegeta {
-    height: 40%;
+    max-height: 80%;
     display: flex;
 }
 
