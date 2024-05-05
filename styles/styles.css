@@ -70,7 +70,7 @@ div:hover {
     background-color: hotpink;
     position: relative;
     max-width: 89.9%;
-    height: 100%;
+    height: auto;
     top: 20vh;
     left: 10vw;
     /* right: 0px; */
@@ -92,7 +92,7 @@ div:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 70%;
+    max-height: 70vh;
 }
 
 /* Page title styling */
@@ -113,18 +113,21 @@ div:hover {
     justify-content: center;
 }
 
+/* Section with character image on left */
 .char-left {
     display: flex;
     width: 100%;
     max-height: 50vh;
 }
 
+/* Section with character image on right */
 .char-right {
     display: flex;
     width: 100%;
     max-height: 50vh;
 }
 
+/* Character image styling */
 .char-styling {
     max-height: 100%;
     display: flex;
@@ -132,40 +135,25 @@ div:hover {
     margin-right: auto;
 }
 
-/* #goku {
-    max-height: 100%;
-    display: flex;
+/* Section for user login styling */
+.user-input {
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+    width: 50vw;
+    height: auto;
+    background-color: rgb(68, 39, 39);
 }
 
-#vegeta {
-    max-height: 100%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+/* User input styling */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
-
-#frieza {
-    max-height: 100%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#beerus {
-    max-height: 100%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#whis {
-    max-height: 100%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 /* Viewpoints 480px or less */
 @media screen and (max-width: 480px) {
