@@ -36,31 +36,72 @@
         </div>
 
         <div class="content-container">
-            <form>
-                <div class="user-input">
-                    <label for="userName">
-                        Username
-                    </label>
-                    <input type="text" placeholder="Enter Username" name="userName" required>
+            <div class  ="input-container">
+                <form>
+                    <div class="user-input">
+                        <label for="userName">
+                            Username
+                        </label>
+                        <input type="text" placeholder="Enter Username" name="userName" required>
 
-                    <label for="passWord"> 
-                        Password>
-                    </label>
-                    <input type="password" placeholder="Enter Password" name="passWord" required>
+                        <label for="passWord"> 
+                            Password>
+                        </label>
+                        <input type="password" placeholder="Enter Password" name="passWord" required>
 
-                    <label>
-                        <input type="checkbox" checked="checked" name="remember">Remember me 
-                    </label>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember">Remember me 
+                        </label>
 
-                    <span class="passWord">
-                        <a href="#">Forgot Password</a>
-                    </span>
+                        <span class="passWord">
+                            <a href="#">Forgot Password</a>
+                        </span>
 
-                    <button type="submit">Login</button>
-                </div>
-                <div class="user-input">
-                </div>
-            </form>
+                        <button type="submit">Login</button>
+                    </div>
+                    <div class="user-input">
+                    </div>
+                </form>
+
+                <fieldset class="input-container">
+                    <legend>Registration</legend>
+                        <h4>* Required</h4>
+                        <div class="inline-group">
+                            <label for="FirstName">*First Name: </label>
+                            <input type="text" name="firstName" placeholder="First Name" id="FirstName" required><br>
+                        </div>
+                        <div class="inline-group">
+                            <label for="LastName">*Last Name: </label>
+                            <input type="text" name="lastName" placeholder="Last Name" id="LastName" required><br>
+                        </div>
+                        <div class="inline-group">
+                            <label for="Email">*Email: </label>
+                            <input type="email" name="Email" placeholder="Email" id="Email" required><br>
+                        </div>
+                        <div class="inline-group">
+                            <label for="Password">*Password: </label>
+                            <input type="password" name="password" placeholder="Password" id="password" required><br>
+                        </div>
+                        <div class="inline-group">
+                            <label for="confirmPassword">*Confirm Password </label>
+                            <input type="password" name="confirmPassword" placeholder="Confirm Password" id="ConfirmPassword"><br>
+                        </div>
+                        <div class="inline-group">    
+                            <label for="gender">Gender:</label>
+                            <label for="genderFemale">Female</label>
+                            <input type="radio" name="radio" id="genderFemale">
+                            <label for="genderMale">Male</label>
+                            <input type="radio" name="radio" id="genderMale"><br>
+                        </div>
+                        <div class="inline-group">
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" name="birthday" placeholder="mm/dd/yyyy" id="birthday"><br>
+                        </div>
+                    <div class="button-center">
+                        <button type="submit">Register</button>
+                    </div>
+                </fieldset>
+            </div>
         </div>
 
         <!-- Bootstrap script -->
